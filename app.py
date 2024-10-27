@@ -178,4 +178,4 @@ if __name__ == "__main__":
     # 啟動應用程式
     # 本機測試使用127.0.0.1, debug=True
     # Heroku, render.com 部署使用 0.0.0.0
-    app.run(host="127.0.0.1", port=port, debug=True)
+    app.run(host="0.0.0.0", port=port, debug=True)
